@@ -28,14 +28,6 @@
 
 /* GENERAL */
 
-.container-80 {
-    width: 80%;
-}
-
-.container-55 {
-    width: 55%;
-}
-
 body {
     background-color: var(--white);
     color: var(--dark-grey);
@@ -54,14 +46,11 @@ header {
 
 /* MAIN */
 
-main {
-    margin: 6rem 0;
-}
-
 /* SECTION 1 */
 
 #start-bootstrap {
     background-color: var(--green);
+    padding-top: 8rem;
 }
 
 /* SECTION 2 */
@@ -76,22 +65,40 @@ main {
     background-color: var(--green);
 }
 
+/* SECTION 4 */
+
+#contact-me {
+    padding-bottom: 8rem;
+}
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
 /* FOOTER TOP */
 
 #footer-top {
     background-color: var(--grey);
+    color: var(--white);
+
 }
 
 /* FOOTER BOTTOM */
 
 #footer-bottom {
     height: 6rem;
-    line-height: 6rem;
     text-align: center;
     background-color: var(--dark-grey);
     color: var(--white);
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (min-width: 768px){
+
 }
