@@ -54,6 +54,10 @@ header {
 
 /* MAIN */
 
+main {
+    margin: 6rem 0;
+}
+
 /* SECTION 1 */
 
 #start-bootstrap {
