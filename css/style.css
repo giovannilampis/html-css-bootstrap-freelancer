@@ -39,7 +39,7 @@ body {
 /* HEADER */
 
 header {
-    height: 6rem;
+    height: 100px;
     background-color: var(--dark-grey);
     color: var(--white);
     position: fixed;
@@ -102,7 +102,7 @@ footer {
 /* FOOTER BOTTOM */
 
 #footer-bottom {
-    height: 6rem;
+    height: 100px;
     text-align: center;
     background-color: var(--dark-grey);
     color: var(--white);
