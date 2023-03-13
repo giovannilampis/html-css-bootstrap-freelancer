@@ -56,21 +56,36 @@ header {
 
 /* SECTION 1 */
 
-/* #start {
+#start-bootstrap {
     background-color: var(--green);
-} */
+}
 
 /* SECTION 2 */
 
-/* #portfolio {
+#portfolio {
     background-color: var(--white);
-} */
+}
+
+/* SECTION 3 */
+
+#about {
+    background-color: var(--green);
+}
+
+/* FOOTER TOP */
+
+#footer-top {
+    background-color: var(--grey);
+}
 
 /* FOOTER BOTTOM */
 
 #footer-bottom {
     height: 6rem;
+    line-height: 6rem;
+    text-align: center;
     background-color: var(--dark-grey);
+    color: var(--white);
     position: fixed;
     bottom: 0;
     right: 0;
