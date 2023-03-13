@@ -2,7 +2,16 @@
 
 /* color variables */
 :root {
-
+    --white: rgba(255, 255, 255, 1);
+    --header-bg: rgba(44, 62, 80, 1);
+    --start-bootstrap-bg: rgba(26, 188, 156, 1);
+    --card01-bg: rgba(186, 75, 99, 1);
+    --card02-bg: rgba(30, 164, 182, 1);
+    --card03-bg: rgba(20, 15, 15, 1);
+    --card04-bg: rgba(28, 131, 193, 1);
+    --card-05-bg: rgba(14, 56, 181, 1);
+    --card06-bg: rgba(204, 178, 163, 1);
+    --contacts-bg: rgba(58, 84, 109, 1);
 }
 
 /* reset */
