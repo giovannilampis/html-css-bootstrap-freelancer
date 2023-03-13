@@ -65,3 +65,14 @@ header {
 /* #portfolio {
     background-color: var(--white);
 } */
+
+/* FOOTER BOTTOM */
+
+#footer-bottom {
+    height: 6rem;
+    background-color: var(--dark-grey);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
