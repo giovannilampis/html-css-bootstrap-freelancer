@@ -56,16 +56,45 @@ header {
     background-color: var(--green);
     color: var(--white);
     padding-top: 6rem;
+    padding-bottom: 3rem;
 }
 
 img.avatar {
     width: 70%;
 }
 
+.star {
+    width: 18rem;
+}
+
+.star .fa-solid.fa-star {
+    width: 20%;
+}
+
+.star::before, .star::after {
+    background-color: var(--white);
+    content: "";
+    display: block;
+    height: 0.2rem;
+    width: 40%;
+}
+
+#start-bootstrap .star i {
+    color: var(--white);
+}
+
 /* SECTION 2 */
 
 #portfolio {
     background-color: var(--white);
+}
+
+#portfolio .star::before, #portfolio .star::after {
+    background-color: var(--dark-grey);
+    content: "";
+    display: block;
+    height: 0.2rem;
+    width: 40%;
 }
 
 /* SECTION 3 */
