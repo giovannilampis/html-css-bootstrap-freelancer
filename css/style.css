@@ -147,13 +147,12 @@ footer {
 
 #footer-bottom {
     height: 100px;
+    line-height: 100px;
     text-align: center;
     background-color: var(--dark-grey);
     color: var(--white);
 }
 
-/* RESPONSIVE DESIGN */
-
-@media screen and (min-width: 768px){
-
+#footer-bottom h6 {
+    line-height: 100px;
 }
