@@ -89,7 +89,8 @@ img.avatar {
     background-color: var(--white);
 }
 
-#portfolio .star::before, #portfolio .star::after {
+#portfolio .star::before, 
+#portfolio .star::after {
     background-color: var(--dark-grey);
     content: "";
     display: block;
@@ -108,6 +109,15 @@ img.avatar {
 
 #contact-me {
     padding-bottom: 8rem;
+}
+
+#contact-me .star::before, 
+#contact-me .star::after {
+    background-color: var(--dark-grey);
+    content: "";
+    display: block;
+    height: 0.2rem;
+    width: 40%;
 }
 
 /* FOOTER */
