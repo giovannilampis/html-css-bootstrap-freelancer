@@ -47,7 +47,8 @@ header {
     width: 100%;
 }
 
-.navbar {
+.navbar-brand,
+.nav-link {
     color: var(--white) !important;
 }
 
@@ -140,7 +141,11 @@ footer {
 #footer-top {
     background-color: var(--grey);
     color: var(--white);
+}
 
+.start-bootstrap-link {
+    text-decoration: none;
+    color: var(--green);
 }
 
 /* FOOTER BOTTOM */
