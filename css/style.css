@@ -40,12 +40,15 @@ body {
 
 header {
     height: 100px;
-    background-color: var(--dark-grey);
-    color: var(--white);
+    background-color: var(--dark-grey) !important;
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
+}
+
+.navbar {
+    color: var(--white) !important;
 }
 
 /* MAIN */
