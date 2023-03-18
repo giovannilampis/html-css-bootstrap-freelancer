@@ -54,6 +54,15 @@ header {
 
 /* MAIN */
 
+.button{
+    color: var(--white);
+    background-color: var(--green);
+    border: 1px solid var(--white);
+    padding: 0.4rem 0.7rem;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
+
 /* SECTION 1 */
 
 #start-bootstrap {
@@ -111,6 +120,14 @@ img.avatar {
     padding: 2rem 0;
 }
 
+.mr-03 {
+    margin-right: 0.3rem;
+}
+
+.button-about {
+    background-color: var(--green) !important;
+}
+
 /* SECTION 4 */
 
 #contact-me {
@@ -130,19 +147,41 @@ img.avatar {
 
 footer {
     color: var(--white);
-    position: fixed;
-    bottom: 0;
-    right: 0;
     width: 100%;
 }
-
-footer.fa
 
 /* FOOTER TOP */
 
 #footer-top {
     background-color: var(--grey);
     color: var(--white);
+}
+
+/* social icons layout */
+
+#footer-top i {
+    border: 2px solid var(--white);
+    color: white; 
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center; 
+    line-height: 45px;
+    height: 45px;
+    aspect-ratio: 1;
+}
+
+/* social icons margins */
+
+#footer-top div.social-icon {
+    margin: 0 0.3rem;
+}
+
+#footer-top div.social-icon:first-child {
+    margin-left: 0;
+}
+
+#footer-top div.social-icon:last-child {
+    margin-right: 0;
 }
 
 .start-bootstrap-link {
