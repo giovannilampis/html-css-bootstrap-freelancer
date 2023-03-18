@@ -68,8 +68,7 @@ header {
 #start-bootstrap {
     background-color: var(--green);
     color: var(--white);
-    padding-top: 6rem;
-    padding-bottom: 3rem;
+    padding: 7rem 0 2rem 0;
 }
 
 img.avatar {
@@ -100,7 +99,7 @@ img.avatar {
 
 #portfolio {
     background-color: var(--white);
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 #portfolio .star::before, 
@@ -117,7 +116,7 @@ img.avatar {
 #about {
     background-color: var(--green);
     color: var(--white);
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .mr-03 {
