@@ -123,10 +123,6 @@ img.avatar {
     margin-right: 0.3rem;
 }
 
-.button-about {
-    background-color: var(--green) !important;
-}
-
 /* SECTION 4 */
 
 #contact-me {
@@ -140,6 +136,10 @@ img.avatar {
     display: block;
     height: 0.2rem;
     width: 40%;
+}
+
+.button-contact {
+    background-color: var(--green) !important;
 }
 
 /* FOOTER */
